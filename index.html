@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>松展包裝有限公司</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #e8f5e9, #a5d6a7);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #1b5e20, #66bb6a);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #2e7d32;
+      border-left: 5px solid #66bb6a;
+      padding-left: 10px;
+    }
+    .product {
+      background: white;
+      margin: 1rem 0;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeInUp 0.8s forwards;
+    }
+    .product:nth-child(even) {
+      animation-delay: 0.2s;
+    }
+    .product:nth-child(odd) {
+      animation-delay: 0.4s;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+    footer {
+      background: #1b5e20;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 0.75rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    a {
+      color: #2e7d32;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>松展包裝有限公司</h1>
+    <p>專業塑膠真空成型｜客製化包裝解決方案</p>
+  </header>
+
+  <section>
+    <h2>關於我們</h2>
+    <p>
+      成立於2021年，松展包裝有限公司專注於塑膠真空成型產品的開發與製造。
+      我們提供客製化設計與製造服務，產品廣泛應用於食品包裝、電子配件、醫療等產業，
+      以高品質與效率滿足客戶需求。
+    </p>
+  </section>
+
+  <section>
+    <h2>產品介紹</h2>
+
+    <div class="product">
+      <h3>沙拉容器</h3>
+      <p>新鮮沙拉的最佳包裝選擇，透明美觀，便於外帶。</p>
+      <img src="images/沙拉碗.jpg" alt="沙拉容器">
+    </div>
+
+    <div class="product">
+      <h3>多用容器</h3>
+      <p>適合熟食、冷凍食品及各式商品包裝，耐熱耐冷，多樣尺寸。</p>
+      <img src="images/20入PP盒.jpg" alt="20入PP盒">
+      <img src="images/20入PP盒-原.jpg" alt="20入PP盒-原">
+      <img src="images/HT-03B.jpg" alt="HT-03B">
+    </div>
+
+    <div class="product">
+      <h3>外帶餐盒</h3>
+      <p>堅固防漏，適合湯品、主食與點心，符合食品安全標準。</p>
+    </div>
+
+    <div class="product">
+      <h3>蔬果包裝</h3>
+      <p>通風設計保持蔬果新鮮，強化結構避免碰撞損傷。</p>
+      <img src="images/TSB-150.jpg" alt="TSB-150">
+      <img src="images/TSB-800.jpg" alt="TSB-800">
+    </div>
+
+    <div class="product">
+      <h3>烘焙產品</h3>
+      <p>適合甜點、蛋糕、麵包等烘焙食品包裝，兼顧美觀與保護。</p>
+      <img src="images/PRO-6SC.jpg" alt="PRO-6SC">
+    </div>
+
+    <div class="product">
+      <h3>超市托盤</h3>
+      <p>適合用於超市冷藏食品展示與包裝，安全無毒，材質堅固。</p>
+      <img src="images/PP托盤-大.jpg" alt="PP托盤-大">
+      <img src="images/PP托盤-小.jpg" alt="PP托盤-小">
+    </div>
+
+    <div class="product">
+      <h3>年菜專區</h3>
+      <p>專為年節料理設計的包裝方案，保鮮、美觀又便利。</p>
+    </div>
+
+    <div class="product">
+      <h3>工業包裝</h3>
+      <p>專為電子產品出貨所設計，提供良好保護與抗震功能。</p>
+    </div>
+
+    <div class="product">
+      <h3>客製產品</h3>
+      <p>適合少量多樣化生產，快速交貨，彈性設計符合各類產品需求。</p>
+      <img src="images/20入水餃對折盒.jpg" alt="20入水餃對折盒">
+    </div>
+
+  </section>
+
+  <section>
+    <h2>聯絡我們</h2>
+    <p>地址：新北市鶯歌區文化路501-20號</p>
+    <p>電話：(02) 8678-0591</p>
+    <p>Email：<a href="mailto:songzhan.plastic@gmail.com">songzhan.plastic@gmail.com</a></p>
+    <p>LINE 官方帳號：<a href="https://line.me/ti/p/@766adrfc" target="_blank">@766adrfc</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 松展包裝有限公司 - 版權所有</p>
+  </footer>
+</body>
+</html>
